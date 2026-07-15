@@ -37,7 +37,7 @@ export default function Hero() {
         }}
       />
 
-      <div className="max-w-7xl mx-auto px-5 sm:px-8 py-20 md:py-28 relative grid md:grid-cols-2 gap-12 items-center w-full">
+      <div className="max-w-7xl mx-auto px-5 -mt-16 sm:px-8 py-20 md:py-28 relative grid md:grid-cols-2 gap-12 items-center w-full">
         <motion.div
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
