@@ -247,8 +247,8 @@ const serviceLinks = [
 ];
 
 export default function Footer() {
-  const footerRef = useRef < HTMLElement > null;
-  const contentRef = useRef < HTMLDivElement > null;
+ const footerRef = useRef(null);
+const contentRef = useRef(null);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
