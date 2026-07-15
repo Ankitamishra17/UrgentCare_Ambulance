@@ -1,26 +1,101 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-navy-50: #eaf1f8;
+  --color-navy-100: #d0e0ee;
+  --color-navy-300: #7ca6c9;
+  --color-navy-500: #2c6396;
+  --color-navy-700: #13416f;
+  --color-navy-900: #0b2947;
+
+  --color-maroon-50: #fbeaec;
+  --color-maroon-100: #f2c3ca;
+  --color-maroon-300: #c96476;
+  --color-maroon-500: #a3223a;
+  --color-maroon-700: #851829;
+  --color-maroon-900: #5c0f1c;
+
+  --color-bone: #F6F5F1;
+  --color-ink: #111417;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  background: #f6f5f1;
+  color: #111417;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-display {
+  font-family: var(--font-heading);
+}
+
+.mono {
+  font-family: monospace;
+} */
+
+
+
+@import "tailwindcss";
+
+@theme {
+  --color-navy-50: #eaf1f8;
+  --color-navy-100: #d0e0ee;
+  --color-navy-300: #7ca6c9;
+  --color-navy-500: #2c6396;
+  --color-navy-700: #13416f;
+  --color-navy-900: #0b2947;
+
+  --color-maroon-50: #fbeaec;
+  --color-maroon-100: #f2c3ca;
+  --color-maroon-300: #c96476;
+  --color-maroon-500: #a3223a;
+  --color-maroon-700: #851829;
+  --color-maroon-900: #5c0f1c;
+
+  --color-bone: #F6F5F1;
+  --color-ink: #111417;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: #f6f5f1;
+  color: #111417;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-display {
+  font-family: var(--font-heading);
+}
+
+.mono {
+  font-family: var(--font-mono, monospace);
+}
+
+/* ECG pulse line — used in Hero.jsx, ContactForm.jsx, OurStory.jsx etc. */
+.ecg-line {
+  stroke: var(--color-maroon-700);
+  stroke-width: 2.5;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
