@@ -28,7 +28,7 @@ const medicalServices = [
     icon: Truck,
     title: "Basic Life Support (BLS)",
     desc: "Non-invasive medical monitoring and comfortable transport staffed by certified EMTs for stable patients.",
-    price: "2,500",
+   
     unit: "base + ₹50/km",
     image: "https://images.pexels.com/photos/3584101/pexels-photo-3584101.jpeg",
   },
@@ -38,7 +38,7 @@ const medicalServices = [
     icon: HeartPulse,
     title: "Advanced Life Support (ALS)",
     desc: "High-tier emergency response featuring cardiac monitoring, IV therapy, airway management, and paramedic care.",
-    price: "5,500",
+    
     unit: "base + ₹80/km",
     image:
       "https://images.pexels.com/photos/11085898/pexels-photo-11085898.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -49,7 +49,7 @@ const medicalServices = [
     icon: ShieldAlert,
     title: "Critical Care Transport (CCT)",
     desc: "ICU-to-ICU transfers utilizing specialized ventilators and state-of-the-art infusion pumps managed by critical care nurses.",
-    price: "9,000",
+   
     unit: "base + ₹120/km",
     image:
       "https://images.unsplash.com/photo-1619025873875-59dfdd2bbbd6?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -60,7 +60,7 @@ const medicalServices = [
     icon: Plane,
     title: "Air Ambulance Dispatch",
     desc: "Rapid fixed-wing or helicopter medical evacuation configured for immediate long-distance critical care transfers.",
-    price: "85,000",
+  
     unit: "flight hour",
     image:
       "https://images.unsplash.com/photo-1696243144263-76fbba9f8d18?q=80&w=800&auto=format&fit=crop",
@@ -71,7 +71,7 @@ const medicalServices = [
     icon: CalendarDays,
     title: "Event Medical Cover",
     desc: "On-site standby ambulance infrastructure and dedicated first-responder teams deployed for public or private events.",
-    price: "12,000",
+   
     unit: "day rate",
     image:
       "https://images.unsplash.com/photo-1587745416684-47953f16f02f?q=80&w=800&auto=format&fit=crop",
@@ -82,7 +82,7 @@ const medicalServices = [
     icon: Activity,
     title: "Neonatal Care Transport",
     desc: "Highly specialized mobile incubators engineered specifically for the safe transit of critical infants.",
-    price: "11,000",
+  
     unit: "transfer",
     image:
       "https://images.unsplash.com/photo-1560306580-9e204fe45f3e?q=80&w=800&auto=format&fit=crop",
@@ -266,9 +266,7 @@ export default function AmbulanceServicesGrid() {
                           Baseline Fee
                         </span>
                         <div className="flex items-baseline gap-0.5 mt-0.5">
-                          <span className="text-xl sm:text-2xl font-black font-display text-navy-900">
-                            ₹{price}
-                          </span>
+                        
                           <span className="text-[10px] font-semibold text-navy-700/40">
                             /{unit}
                           </span>
