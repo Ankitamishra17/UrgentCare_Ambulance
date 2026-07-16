@@ -22,7 +22,7 @@ if (typeof window !== "undefined") {
 
 // Replace with your own asset in /public, e.g. "/images/contact-form.jpg"
 const IMAGE =
-  "https://images.unsplash.com/photo-1587745416684-47953f16f02f?q=80&w=1400&auto=format&fit=crop";
+  "https://images.pexels.com/photos/7527770/pexels-photo-7527770.jpeg";
 
 const SERVICES = [
   "Emergency response",
@@ -335,7 +335,7 @@ export default function ContactForm() {
                       value={form.phone}
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      placeholder="+91 98xxxxxxx"
+                      placeholder="+91 98XXXXXXXX"
                       aria-invalid={!!fieldError("phone")}
                       aria-describedby="phone-error"
                       className={`${baseInput} ${

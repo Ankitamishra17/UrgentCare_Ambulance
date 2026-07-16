@@ -51,7 +51,8 @@ export default function ContactInfo() {
           Don&apos;t fill the form &mdash; call us directly.
         </p>
         <a
-          href="tel:+911800123456"
+          href="tel:+91 9540767878
+"
           className="mt-4 inline-flex items-center gap-2 bg-bone text-maroon-700 font-display font-bold text-lg px-5 py-2.5 rounded-md hover:bg-navy-50 transition-colors"
         >
           <Phone className="h-4 w-4" />

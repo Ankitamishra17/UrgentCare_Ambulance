@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Phone, ShieldCheck } from "lucide-react";
+import Link from "next/link";
 
 const stats = [
   { value: "120+", label: "Ambulances" },
@@ -67,12 +68,12 @@ export default function Hero() {
               <Phone className="h-5 w-5 relative z-10" />
               <span className="relative z-10">+91 9540767878</span>
             </a>
-            <a
+            <Link
               href="/contact"
               className="inline-flex items-center gap-2 bg-bone/5 backdrop-blur-sm border border-navy-100/30 hover:border-bone/70 hover:bg-bone/10 transition-colors px-7 py-3.5 rounded-md font-medium text-base"
             >
               Book a Transport
-            </a>
+            </Link>
           </div>
 
           <div className="grid grid-cols-3 gap-6 mt-12 max-w-md">
