@@ -66,7 +66,7 @@ export default function Contact() {
               <div>
                 <p className="font-semibold text-navy-900">Email</p>
                 <p className="text-navy-700/70 text-sm">
-                  dispatch@rapidcareambulance.in
+                  info@urgentcareambulance.in
                 </p>
               </div>
             </div>
@@ -77,7 +77,9 @@ export default function Contact() {
               <div>
                 <p className="font-semibold text-navy-900">Base station</p>
                 <p className="text-navy-700/70 text-sm">
-                  Sector 62, Noida, Uttar Pradesh
+                  Mayur Vihar Phase III, Gharoli,New Delhi, Delhi – 110096 
+                
+
                 </p>
               </div>
             </div>

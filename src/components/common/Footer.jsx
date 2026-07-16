@@ -142,7 +142,7 @@ export default function Footer() {
             </Link>
             <p className="text-sm text-slate-300 leading-relaxed">
               Leading the standard in high-tier critical care and rapid 24/7
-              emergency medical transports across Delhi NCR.
+              emergency medical transports across Delhi.
             </p>
 
             <div className="flex gap-3 pt-2">
@@ -228,7 +228,7 @@ export default function Footer() {
                 <div className="p-1.5 rounded-lg bg-white/[0.03] border border-white/5 text-red-400 shrink-0">
                   <MapPin className="h-4 w-4" />
                 </div>
-                <span className="text-slate-300">Sector 62, Noida, UP</span>
+                <span className="text-slate-300"> Mayur Vihar Phase III, Gharoli,New Delhi, Delhi  110096 </span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="p-1.5 rounded-lg bg-white/[0.03] border border-white/5 text-red-400 shrink-0">
@@ -263,7 +263,7 @@ export default function Footer() {
             <span className="hidden sm:inline text-white/10">|</span>
             <p className="flex items-center gap-1.5 justify-center">
               <ShieldCheck className="h-3.5 w-3.5 text-emerald-500" />
-              Delhi NCR EMS Certified
+              Delhi EMS Certified
             </p>
           </div>
 

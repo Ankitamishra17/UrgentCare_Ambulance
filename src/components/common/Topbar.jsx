@@ -12,7 +12,7 @@ export default function TopBar() {
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-maroon-300" />
           </span>
           <span className="font-medium tracking-wide hidden sm:inline">
-            24/7 Emergency Response &mdash; Delhi NCR
+            24/7 Emergency Response &mdash; Delhi 
           </span>
           <span className="font-medium tracking-wide sm:hidden">24/7 Emergency</span>
         </div>

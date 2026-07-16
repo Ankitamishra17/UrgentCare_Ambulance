@@ -127,7 +127,7 @@ export default function OurStory() {
                 Every minute matters &mdash; our mission since day one.
               </p>
               <div className="flex items-center gap-2 mt-4 pt-4 border-t border-bone/10">
-                <span className="font-display font-bold text-2xl">12+</span>
+                <span className="font-display font-bold text-2xl">10+</span>
                 <span className="text-xs text-navy-100/60">
                   years of emergency care
                 </span>

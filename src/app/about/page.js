@@ -7,7 +7,7 @@ import CTASection from "@/components/about/CTASection"
 export const metadata = {
   title: "About Us | UrgentCare Ambulance",
   description:
-    "Emergency response, ICU on wheels, patient transfer, event standby, home care pickup, and mortuary transport — 24/7 across Delhi NCR.",
+    "Emergency response, ICU on wheels, patient transfer, event standby, home care pickup, and mortuary transport — 24/7 across Delhi .",
 };
 
 export default function ServicesPage() {

@@ -14,13 +14,13 @@ const items = [
   {
     icon: Mail,
     label: "Email",
-    value: "urgentcare@ambulance.in",
-    href: "mailto:urgentcare@ambulance.in",
+    value: "info@urgentcareambulance.in",
+    href: "mailto:info@urgentcareambulance.in",
   },
   {
     icon: MapPin,
     label: "Base station",
-    value: "Sector 62, Noida, Uttar Pradesh",
+    value: " Mayur Vihar Phase III, Gharoli,New Delhi, Delhi  110096",
   },
   {
     icon: Clock,

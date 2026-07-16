@@ -18,8 +18,8 @@ export default function ContactMap() {
     >
       <iframe
         className="w-full h-full"
-        title="RapidCare Ambulance location"
-        src="https://www.google.com/maps?q=Sector+62,+Noida,+Uttar+Pradesh&output=embed"
+        title="Urgent Care Ambulance Location"
+        src="https://www.google.com/maps?q=Mayur+Vihar+Phase+III,+Gharoli,+New+Delhi,+Delhi+110096&output=embed"
         style={{ border: 0, minHeight: "320px" }}
         loading="lazy"
       />

@@ -5,9 +5,9 @@ import ContactMap from "@/components/contact/ContactMap";
 import FAQ from "@/components/contact/FAQ";
 
 export const metadata = {
-  title: "Contact Us | RapidCare Ambulance",
+  title: "Contact Us | UrgentCare Ambulance",
   description:
-    "Reach RapidCare Ambulance for emergency dispatch, scheduled patient transfer, or general enquiries across Delhi NCR.",
+    "Reach UrgentCare Ambulance for emergency dispatch, scheduled patient transfer, or general enquiries across Delhi.",
 };
 
 export default function ContactPage() {
