@@ -1,4 +1,4 @@
-import { Barlow_Condensed, Inter } from "next/font/google";
+import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
 import TopBar from "@/components/common/Topbar";
 import Navbar from "@/components/common/Navbar";
@@ -6,9 +6,9 @@ import Footer from "@/components/common/Footer";
 import FloatingCallButton from "@/components/common/CallButton";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
-const barlow =Barlow_Condensed({
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
-   weight: ["500", "600", "700", "800"],
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-heading",
 });
 
@@ -24,16 +24,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.variable} ${barlow.variable}`}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${spaceGrotesk.variable}`}
+    >
       <body className="min-h-screen flex flex-col">
-      <ScrollToTop/>
+        <ScrollToTop />
         <TopBar />
         <Navbar />
 
         <main className="flex-1">{children}</main>
 
         <Footer />
-           <FloatingCallButton />
+        <FloatingCallButton />
       </body>
     </html>
   );

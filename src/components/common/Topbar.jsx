@@ -18,9 +18,9 @@ export default function TopBar() {
         </div>
         <a
           href="tel:+919540767878"
-          className="flex items-center gap-1.5 font-semibold text-bone hover:text-maroon-100 transition-colors"
+          className="flex items-center gap-1.5 font-medium text-bone hover:text-maroon-100 transition-colors"
         >
-          <Phone className="h-4 w-4" />
+          <Phone className="h-3 w-3" />
           +91 9540767878
         </a>
       </div>
