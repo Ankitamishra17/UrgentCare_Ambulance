@@ -133,7 +133,7 @@ export default function Footer() {
             >
               <Image
                 src="/footer_logo.webp"
-                alt="RapidCare Ambulance Logo"
+                alt="UrgentCare Ambulance Logo"
                 width={120}
                 height={56}
                 className="brightness-110"
@@ -235,10 +235,10 @@ export default function Footer() {
                   <Mail className="h-4 w-4" />
                 </div>
                 <a
-                  href="mailto:urgent@rapidcareambulance.in"
+                  href="mailto:urgent@urgentcareambulance.in"
                   className="hover:text-white transition-colors break-all text-slate-300"
                 >
-                  urgent@rapidcareambulance.in
+                  urgent@urgentcareambulance.in
                 </a>
               </li>
               <li className="flex items-start gap-3 font-semibold">
@@ -259,7 +259,7 @@ export default function Footer() {
         {/* Bottom Legal & Developer Bar */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
           <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
-            <p>&copy; 2026 RapidCare Ambulance. All rights reserved.</p>
+            <p>&copy; 2026 UrgentCare Ambulance. All rights reserved.</p>
             <span className="hidden sm:inline text-white/10">|</span>
             <p className="flex items-center gap-1.5 justify-center">
               <ShieldCheck className="h-3.5 w-3.5 text-emerald-500" />
