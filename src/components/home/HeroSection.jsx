@@ -140,14 +140,14 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      <svg
+      {/* <svg
         className="block w-full absolute bottom-0 left-0 z-10"
         viewBox="0 0 1440 60"
         preserveAspectRatio="none"
         style={{ height: "50px" }}
       >
         <path fill="#F6F5F1" d="M0 60 L1440 0 L1440 60 Z" />
-      </svg>
+      </svg> */}
     </section>
   );
 }
