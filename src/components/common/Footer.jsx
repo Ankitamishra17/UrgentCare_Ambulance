@@ -235,10 +235,10 @@ export default function Footer() {
                   <Mail className="h-4 w-4" />
                 </div>
                 <a
-                  href="mailto:urgent@urgentcareambulance.in"
+                  href="mailto:info@urgentcareambulance.in"
                   className="hover:text-white transition-colors break-all text-slate-300"
                 >
-                  urgent@urgentcareambulance.in
+                  info@urgentcareambulance.in
                 </a>
               </li>
               <li className="flex items-start gap-3 font-semibold">
